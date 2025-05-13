@@ -1,0 +1,717 @@
+body{
+	background: #e3edff;
+}
+/* Pagina Principal---------------------------------------------------------------------------------------------------------------------*/
+.nav{
+	border: solid #ccc;
+	padding: 10px;
+	background: #020044;
+	border-radius: 20px;
+	box-shadow:2px 2px 2px #eee;
+}
+
+.nav h1{
+	font-family:'century gothic';
+	margin: auto;
+	color: white;
+	float: left;
+	width: 350px;
+	padding: 10px;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #020044;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	font-family:'century gothic';
+	text-decoration: none;
+	color: #d8ae0f;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ad1814;
+	border-radius: 20px;
+}
+
+.menu form{
+	float: right;
+}
+
+input[type="search"] {
+	margin-top: 10px;
+	border:1px solid #ccc;
+	padding:10px;
+	width: 250px;
+	border-radius: 20px;
+
+}
+
+.principal{
+	font-family: "Bungee", sans-serif;
+	margin-left: 125px;
+	margin-top: 20px;
+	width: 1200px;
+	border: solid #ccc;
+	background: white;
+	height: 800px;
+	color: #d8ae0f;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 2px 2px 2px #ccc;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.principal a{
+	text-decoration: none;
+	color: #d8ae0f;
+}
+
+.principal h1:hover{
+	background: #ad1814 ;
+	width: px;
+	text-align: center;
+	border-radius: 20px;
+
+}
+.box{
+	width: 100%;
+	height: 565	px;
+	border-radius: 20px;
+
+}
+
+.destacado{
+	font-family: "Bungee", sans-serif;
+	margin-top: 50px;
+	width: 100%;
+	border: solid #ccc;
+	background: white;
+	height: 600px;
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+.destacados{
+	font-family:verdana;
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	border-radius: 20px;
+	width: 440px;
+	height: 470px;
+	border: solid #ccc;
+}
+
+.destacados img{
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+}
+
+.destacados img:hover{
+	transform: scale(1.19);
+}
+
+.destacados button{
+	width: 200px;
+	height: 50px;
+	background: #d8ae0f;
+	border: none;
+	border-radius: 30px;
+}
+
+.destacados button:hover{
+	background: #ad1814;
+	border-radius: 20px;
+	border: solid #ad1814;
+	color: white;
+}
+/* Equipaciones ---------------------------------------------------------------------------------------------------------------------*/
+.principal-equipaciones{
+	float: left;
+	margin-top: 20px;
+	border: solid #ccc;
+	background: white;
+	height: 1200px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #ccc;
+	margin-bottom: 40px;
+}
+
+.camisa{
+	border: solid #ccc;
+	width: 270px;
+	border-radius: 20px;
+	height: 330px;
+	padding: 10px 0;
+	margin-left: 15px;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	font-family:verdana;
+}
+
+.camisa img{
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.camisa img:hover{
+	transform: scale(1.19);
+}
+
+.camisa button{
+	font-family:verdana;
+	width: 100px;
+	height: 40px;
+	background: #d8ae0f;
+	border: solid #d8ae0f;
+	border-radius: 20px;
+
+}
+
+.camisa button:hover{
+	background: #ad1814;
+	border-radius: 20px;
+	border: solid #ad1814;
+	color: white;
+}
+
+.anuncio-equipaciones{
+	border: solid #ccc;
+	background: white;
+	border-radius: 20px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 30px;
+	width: 200px;
+	height: 300px;
+}
+
+
+/* Historia ---------------------------------------------------------------------------------------------------------------------*/
+.lista-equipo{
+	float: left;
+	margin-top: 20px;
+	width: 700px;
+	margin-left: 20px;
+	border: solid #ccc;
+	background: white;
+	height: 400px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #ccc;
+	margin-bottom: 20px;
+}
+
+.lista-equipo img{
+	width: 300px;
+	height: 300px;
+	margin: 10 px;
+	margin-left: 30px;
+	margin-top: 50px;
+	float: left;
+	object-fit: cover;
+	
+}
+
+.lista-equipo img:hover{
+	transform: scale(1.19);
+	
+}
+
+.lista-equipo h1{
+	font-family:verdana;
+	text-align: left;
+	margin: auto;
+	margin-left: 400px;
+	margin-top: 30px;
+	margin-bottom: 	20px;
+}
+
+.texto{
+	text-align: left;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	margin-left: 350px;
+  	margin-right: 15px;
+  	 font-family: "Dosis", sans-serif;
+}  	
+
+/* barcelona ---------------------------------------------------------------------------------------------------------------------*/
+.principal-compra{
+	margin-top: 20px;
+	border-radius: 20px;
+	width: 1105px;
+	background: white;
+	border: solid #ccc;
+	height: 700px; 
+	float: left;
+}
+.principal-compra img{
+	width: 365px;
+	height: 700px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.principal-compra img:hover{
+	transform: scale(1.1);
+}
+.compra{
+	float: left;
+	width: 300px;
+	height: 740px;
+	border: solid #ccc;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: 20px;
+	background: white;
+}
+
+.compra h1{
+	text-align: center;
+	padding: 20px;
+	font-family:verdana;
+
+}
+
+.compra h3{
+	margin-top: 5px;
+	margin-left: 35px;
+	padding: 0;
+	font-family:verdana;
+}
+
+.compra p{
+	margin-left: 35px;
+	font-family:verdana;
+
+}
+.talla{
+	font-family:verdana;
+	float: left;
+	margin-left: 35px;
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	border-radius: 20px;
+	border: none;
+	background: #c4f3ff;
+}
+
+.compra button:hover{
+	background: #ad1814;
+	border-radius: 20px;
+	color: white;
+}
+
+.btn-compra{
+	border: none;
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	background: #FFC300;
+}
+
+.personaliza{
+	float: left;
+	margin-right: 20px;
+}
+
+.compra input{
+	margin-left: 30px;
+	border-radius: 5px;
+	color: black;
+}
+
+.descripcion{
+	margin-top: 20px;
+	border: solid #ccc;
+	float: left;
+	width: 1105px;
+	height: 450px;
+	background: white;
+	border-radius: 20px;
+	font-family:verdana;
+	margin-bottom: 50px;
+	margin-bottom: 50px;
+}
+
+.descripcion h2{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.descripcion p{
+	margin-left: 40px;
+}
+
+.aside{
+	float: left;
+	width: 300px;
+	height: 450px;
+	border: solid #ccc;
+	margin-top: 20px;
+	margin-left: 30px;
+	border-radius: 20px;
+	background: white;
+	margin-bottom: 50px;
+}
+
+.aside img{
+	width: 300px;
+	height: 450px;
+	border-radius: 20px;
+}
+/* Footer ---------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+	background: #020044; /* Color azul específico */
+	color: white;
+	padding: 30px 20px;
+	font-family: 'century gothic';
+	border-radius: 20px;
+	margin-top: 80px;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+.footer-container {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-section {
+	margin: 10px;
+	flex: 1;
+	min-width: 200px;
+}
+
+.footer-section h3 {
+	color: #d8ae0f;
+	margin-bottom: 10px;
+}
+
+.footer-section p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.footer-buttons a {
+	display: inline-block;
+	margin: 5px 10px 5px 0;
+	padding: 8px 12px;
+	background: #d8ae0f;
+	color: #020044;
+	text-decoration: none;
+	border-radius: 15px;
+	font-size: 14px;
+}
+
+.footer-buttons a:hover {
+	background: #ad1814;
+	color: white;
+}
+
+.footer-bottom {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 12px;
+	color: #ccc;
+}
+/* pago */
+.formulario-pago {
+    background: white;
+    border: solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: verdana;
+}
+
+.formulario-pago h1 {
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    margin-bottom: 30px;
+    color: #020044;
+}
+
+.formulario-pago label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario-pago input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.formulario-pago button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #d8ae0f;
+    font-weight: bold;
+    font-size: 16px;
+    color: #020044;
+    cursor: pointer;
+}
+
+.formulario-pago button:hover {
+    background: #ad1814;
+    color: white;
+}
+/* gracias */
+.agradecimiento-container {
+	background: white;
+	border: solid #ccc;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #ccc;
+	width: 800px;
+	margin: 100px auto;
+	padding: 40px;
+	text-align: center;
+	font-family: 'century gothic';
+}
+
+.agradecimiento-container h1 {
+	font-family: "Bungee", sans-serif;
+	font-size: 40px;
+	color: #020044;
+	margin-bottom: 20px;
+}
+
+.agradecimiento-container p {
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 40px;
+}
+
+.agradecimiento-botones {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.boton-gracias {
+	padding: 15px 25px;
+	background: #d8ae0f;
+	color: #020044;
+	text-decoration: none;
+	border-radius: 30px;
+	font-weight: bold;
+	transition: background 0.3s, color 0.3s;
+}
+
+.boton-gracias:hover {
+	background: #ad1814;
+	color: white;
+}
+/* Accesorios */
+.principal-accesorios {
+    float: left;
+    margin-top: 20px;
+    border: solid #ccc;
+    background: white;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 100%;
+}
+
+.accesorio {
+    border: solid #ccc;
+    width: 270px;
+    border-radius: 20px;
+    height: 330px;
+    padding: 10px 0;
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    font-family: verdana;
+}
+
+.accesorio img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+}
+
+.accesorio img:hover {
+	transform: scale(1.19);
+}
+
+.accesorio button {
+    font-family: verdana;
+    width: 100px;
+    height: 40px;
+    background: #d8ae0f;
+    border: solid #d8ae0f;
+    border-radius: 20px;
+}
+
+.accesorio button:hover {
+    background: #ad1814;
+    border-radius: 20px;
+    border: solid #ad1814;
+    color: white;
+}
+/* FORMULARIO */
+.formulario-contacto {
+    background: white;
+    border: solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: verdana;
+}
+
+.formulario-contacto h1 {
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    margin-bottom: 30px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.formulario-contacto button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #d8ae0f;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.formulario-contacto button:hover {
+    background: #ad1814;
+    color: white;
+}
+
+/* CONTENIDO */
+.sobre-nosotros {
+	background: white;
+	border: solid #ccc;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #ccc;
+	width: 800px;
+	margin: 50px auto;
+	padding: 30px;
+	font-family: 'century gothic';
+}
+
+.sobre-nosotros h1 {
+	text-align: center;
+	font-family: "Bungee", sans-serif;
+	margin-bottom: 30px;
+}
+
+.sobre-nosotros h2 {
+	margin-top: 40px;
+	color: #020044;
+}
+
+.sobre-nosotros p {
+	font-size: 16px;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.btn-tabla {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+	align-content: end;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.btn-tabla:hover {
+    background-color: #45a049;
+}
+
+/* Principal Section */
+.principal-tabla {
+    text-align: center;
+    margin-top: 50px;
+}
